@@ -306,7 +306,7 @@ workflow PHOENIX_EXTERNAL {
             KRAKEN2_TRIMD.out.k2_bh_summary, \
             RENAME_FASTA_HEADERS.out.renamed_scaffolds, \
             BBMAP_REFORMAT.out.filtered_scaffolds, \
-            DO_MLST.out.checked_MLSTs, \
+            DO_MLST.out.checked_mlsts, \
             GAMMA_HV.out.gamma, \
             GAMMA_AR.out.gamma, \
             GAMMA_PF.out.gamma, \
